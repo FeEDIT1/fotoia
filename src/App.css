@@ -20,18 +20,38 @@ button{
     font-size: 20px;
     margin-top: 40px;
     padding: 10px;
-    width: 50;
+    width: 190px;
     background-color: rgb(218, 218, 218);
     color: rgb(34, 34, 34);
     border-radius: 50px;
     cursor: pointer;
 }
+button:hover{
+    background:rgb(34, 34, 34);
+    color: rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    transform: scale(1.1)
+    
+}
+
 img{
     width: 128px;
     border-radius: 64px;
     margin: 3px;
 }
+/* img:hover{                           ao colocar o mouse em cima, dará zoom na imagem
+    transform: scale(3);
+    border-radius: 1px;
+} */
+
 .fotos {
     display: flex;
     flex-direction: row;
+}
+
+label, select{
+    font-size: 19px;
+    padding: 5px;
+    margin: 5px;
+
 }
